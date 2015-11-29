@@ -25,4 +25,7 @@ parsing data out of files that contain items from a store, you should be able to
 - *Example: *
 - `php scripts/fileParser.php "items.csv" find-by-category a`
  
+
+# Instructions to run all PHPUnit tests from tests folder:
  
+- `$ ../vendor/bin/phpunit phpunit/`
