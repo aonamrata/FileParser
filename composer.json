@@ -1,0 +1,22 @@
+{
+    "require-dev": {
+        "mikey179/vfsStream": "1.4.0",
+        "mockery/mockery": "0.9.3",
+        "phpunit/phpunit": "4.2.6"
+    },
+    "prefer_stable": true,
+    "autoload": {
+        "psr-4": {
+            "FileParser\\Service\\": "src/Service/",
+            "FileParser\\Scripts\\": "scripts/"
+        }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "FileParser\\Tests": "tests/phpunit/"
+        }
+    },
+    "config": {
+        "discard-changes": true
+    }
+}
