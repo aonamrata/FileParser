@@ -11,13 +11,6 @@ use Exception;
  */
 class CsvReader implements IReader {
 
-    public function doesSourceExist($path) {
-        if (!file_exists($path) || !is_file($path)) {
-            return FALSE;
-        }
-        return TRUE;
-    }
-
     /**
      * 
      * @param string $path

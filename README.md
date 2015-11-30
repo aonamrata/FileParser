@@ -1,6 +1,14 @@
 # FileParser
 parsing data out of files that contain items from a store, you should be able to retrieve specific pieces of the data
 
+# Instructions to setup the repo for use.
+
+* Clone the repo using `git clone https://github.com/aonamrata/FileParser.git`
+* Install composer if it is not already installed from https://getcomposer.org/download/
+* `cd FileParser`
+* Run composer to install all dependencies using this cmd from root dir : `composer install` . This will create vendor folder with all required libraries.
+* Run a test using this cmd from root dir `php scripts/fileParser.php` -- It should give `Invalid option passed!!` and not Fatal error.
+
 
 # Instructions to run all example cases for item.csv as bash script from the root folder:
 

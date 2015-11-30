@@ -11,14 +11,6 @@ use Exception;
  */
 class NlReader implements IReader {
 
-    public function doesSourceExist($path) {
-        //This is exact same as CSV, so maybe we can have a abstract FilebaseReader and move this there
-        if (!file_exists($path) || !is_file($path)) {
-            return FALSE;
-        }
-        return TRUE;
-    }
-
     public function readFromSource($path) {
         if (($handle = fopen($path, "r")) === FALSE) {
             throw new Exception("Failed to read $path");
